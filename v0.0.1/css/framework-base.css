@@ -72,6 +72,35 @@ body {
   margin-left: auto;
 }
 
+@media only screen and (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    width: 100% !important;
+  }
+  .responsivo {
+    display: block;
+    width: auto;
+  }
+  .r-caja {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 2.5em !important;
+  }
+  h2 {
+    font-size: 2em !important;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.2em !important;
+  }
+}
+
 /* ##################################################
 
   hr
