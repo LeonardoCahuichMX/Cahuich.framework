@@ -1,0 +1,132 @@
+/* ##################################################
+
+  Contenido
+  
+##################################################### */
+
+.seccion-t-1 {
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #fff;
+    
+    color: #000;
+}
+
+.center-pantalla {
+  width: 100%;
+  height: 100vh;
+}
+
+.center-pantalla .caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.center-pantalla .caja .centro {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* ##################################################
+
+  Cajas
+  
+##################################################### */
+
+/* ##################################################
+  Cajas mayores
+##################################################### */
+
+/*Esta es la caja base*/
+.cm-1 {
+    width: 100%;
+    height: 100vh;
+  }
+  /*A estas se le aplican estilos*/
+  .cm-1 .cm-caja {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Este es el contenedor que puede llevar una caja-m o mr adentro*/
+  .cm-1 .cm-caja .cm-1-cont {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+
+/* ##################################################
+  Centerizacion (requiere 3 caja)
+##################################################### */
+  /*A estas se le aplican estilos*/
+  .caja-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Este es el contenedor que puede llevar una caja-m o mr adentro*/
+  .caja-center .c-mcont {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+/* ##################################################
+  Cajas menores
+##################################################### */
+.caja-m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .caja-m .celda {
+  }
+    .caja-m .celda .c-cont {
+        /*Esta va dentro de las celdas y puede llevar estilos como margenes, padding, etc.*/
+        }
+        .caja-m .celda .c-cont .c-mcont {
+
+        }
+
+/* ##################################################
+  Celdas
+##################################################### */
+
+.celda-1 {
+  width: 100%;
+}
+.celda-1-m {
+  min-width: 100%;
+}
+.celda-2 {
+  width: 50%;
+}
+.celda-3 {
+  width: 33.33%;
+}
+.celda-4 {
+  width: 25%;
+}
+.celda-5 {
+  width: 20%;
+}
+
+@media only screen and (max-width: 850px) {
+  /* Style adjustments for viewports that meet the condition */
+  .caja-m {
+    display: block;
+  }
+  .celda {
+    width: 100%;
+  }
+}
