@@ -132,7 +132,6 @@ a.b-none {
 }
   .menu-lateral .cont-menu-lateral {
     width: auto;
-    background-color: var(--menu-l);
     backdrop-filter: blur(10px);
 
     color: #000;
@@ -173,7 +172,5 @@ a.b-none {
 }
 
 .menu-lateral-visible {
-  background-color: var(--menu-l-fixed) !important;
-  color: #000 !important;
   transition: .4s ease-out all;
 }
