@@ -153,3 +153,58 @@ img {
   border-radius: 10px;
 }
 
+/* ##################################################
+
+  framework
+  
+##################################################### */
+
+.sec {
+
+}
+.sec-basica {
+  padding: 50px 10%;
+}
+.sec-basica-15 {
+  padding: 50px 15%;
+  text-align: center;
+}
+.sec-basica-20 {
+  padding: 50px 20%;
+  text-align: center;
+}
+.sec-basica-25 {
+  padding: 50px 25%;
+  text-align: center;
+}
+  .sec .sub-titulo {
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  .sec .titulo {
+    margin-top: 0;
+  }
+
+.sec-color-1 {
+  background-color: #000;
+
+  color: #fff;
+}
+.sec-color-2 {
+  background-color: #111;
+
+  color: #fff;
+}
+
+
+.creditos {
+  padding: 0px 20%;
+
+  height: 100vh;
+
+  text-align: center;
+}
+.tecnico {
+  font-family: serif;
+  font-weight: 100;
+}
