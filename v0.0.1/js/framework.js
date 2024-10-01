@@ -175,6 +175,7 @@ $(document).ready(function () {
             //$(this).css( "background-color", "red" );
         })
     }
+    alert("hola encendido");
 });
 
 $(window).scroll(function(){
