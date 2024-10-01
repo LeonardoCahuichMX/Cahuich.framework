@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $(this).attr('id', idintenficador);
             }
         })
-    }
+    };
 
     /* ===================================================
   
@@ -145,7 +145,7 @@ $(document).ready(function () {
             }
             //$(this).css( "background-color", "red" );
         })
-    }
+    };
     function observadoranimacionesunica() {
         $("*").attr('observadoranimacionesunica', function() {
             if($(this).attr('observadoranimacionesunica') != undefined) {
@@ -157,7 +157,7 @@ $(document).ready(function () {
             }
             //$(this).css( "background-color", "red" );
         })
-    }
+    };
 
     /* ====================================================
     Buscador de links de menu de pagina
