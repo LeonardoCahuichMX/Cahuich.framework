@@ -174,7 +174,7 @@ $(document).ready(function () {
             }
             //$(this).css( "background-color", "red" );
         })
-    }
+    };
     /*alert("hola encendido");*/
     buscadorcreditos();
     observadoranimaciones();
