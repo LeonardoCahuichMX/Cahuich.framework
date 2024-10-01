@@ -175,7 +175,6 @@ $(document).ready(function () {
             //$(this).css( "background-color", "red" );
         })
     }
-    buscadorcreditos();
 });
 
 $(window).scroll(function(){
