@@ -175,11 +175,11 @@ $(document).ready(function () {
             //$(this).css( "background-color", "red" );
         })
     }
-    alert("hola encendido");
+    /*alert("hola encendido");
     buscadorcreditos();
     observadoranimaciones();
       observadoranimacionesunica();
-      buscadorlinkspage();
+      buscadorlinkspage();*/
 });
 
 $(window).scroll(function(){
