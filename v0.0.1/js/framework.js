@@ -176,6 +176,10 @@ $(document).ready(function () {
         })
     }
     alert("hola encendido");
+    buscadorcreditos();
+    observadoranimaciones();
+      observadoranimacionesunica();
+      buscadorlinkspage();
 });
 
 $(window).scroll(function(){
