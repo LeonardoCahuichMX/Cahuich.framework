@@ -235,9 +235,9 @@ img {
 
 
 .creditos {
-  padding: 0px 20%;
+  padding: 50px 20%;
 
-  height: 100vh;
+  height: auto;
 
   text-align: center;
 }
