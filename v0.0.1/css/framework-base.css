@@ -159,10 +159,47 @@ img {
   
 ##################################################### */
 
+#progressBarContainer {
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+#progressBar {
+  width: 0;
+  height: 30px;
+  background-color: #5ca08e;
+  transition: width 0.4s ease;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+
 .sec {
 
 }
+.sec-basica-0 {
+  padding: 50px 0%;
+}
+.sec-basica-2 {
+  padding: 50px 2%;
+}
+.sec-basica-5 {
+  padding: 50px 5%;
+}
 .sec-basica {
+  padding: 50px 10%;
+}
+.sec-basica-10 {
   padding: 50px 10%;
 }
 .sec-basica-15 {
@@ -207,4 +244,77 @@ img {
 .tecnico {
   font-family: serif;
   font-weight: 100;
+}
+
+/* ##################################################
+
+  texto-puntos
+  
+##################################################### */
+
+.p-5 {
+  font-size: 0.417em;
+}
+.p-5-5 {
+  font-size: 0.459em;
+}
+.p-6-5 {
+  font-size: 0.542em;
+}
+.p-7-5 {
+  font-size: 0.625em;
+}
+.p-8 {
+  font-size: 0.667em;
+}
+.p-9 {
+  font-size: 0.75em;
+}
+.p-10 {
+  font-size: 0.834em;
+}
+.p-10-5 {
+  font-size: 0.876em;
+}
+.p-11 {
+  font-size: 0.917em;
+}
+.p-12 {
+  font-size: 1.001em;
+}
+.p-13 {
+  font-size: 1.084em;
+}
+.p-14 {
+  font-size: 1.167em;
+}
+.p-16 {
+  font-size: 1.334em;
+}
+.p-18 {
+  font-size: 1.501em;
+}
+.p-20 {
+  font-size: 1.668em;
+}
+.p-22 {
+  font-size: 1.835em;
+}
+.p-24 {
+  font-size: 2.001em;
+}
+.p-26 {
+  font-size: 2.168em;
+}
+.p-28 {
+  font-size: 2.335em;
+}
+.p-36 {
+  font-size: 3.002em;
+}
+.p-48 {
+  font-size: 4.003em;
+}
+.p-72 {
+  font-size: 6.004em;
 }
